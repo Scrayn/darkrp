@@ -24,34 +24,34 @@ Make sure the convar gmod_language is set to your language code. You can do that
 
 local my_language = {
 	-- Admin things
-	need_admin = "You need admin privileges in order to be able to %s",
-	need_sadmin = "You need super admin privileges in order to be able to %s",
-	no_privilege = "You don't have the right privileges to perform this action",
-	no_jail_pos = "No jail position",
-	invalid_x = "Invalid %s! %s",
+	need_admin = "Vous avez besoin d'avoir les privilèges d'administrateur pour %s",
+	need_sadmin = "Vous avez besoin d'avoir les privilèges de super administrateur pour %s",
+	no_privilege = "Vous ne disposez pas des privilèges nécessaires pour effectuer cette action",
+	no_jail_pos = "Aucun positionnement de la cellule",
+	invalid_x = "Invalide %s! %s",
 
 	-- F1 menu
-	f1ChatCommandTitle = "Chat commands",
-	f1Search = "Search...",
+	f1ChatCommandTitle = "Commandes du chat",
+	f1Search = "Recherche...",
 
 	-- Money things:
-	price = "Price: %s%d",
-	priceTag = "Price: %s",
-	reset_money = "%s has reset all players' money!",
-	has_given = "%s has given you %s",
-	you_gave = "You gave %s %s",
-	npc_killpay = "%s for killing an NPC!",
+	price = "Prix: %s%d",
+	priceTag = "Prix: %s",
+	reset_money = "%s a rénitialisé l'argent de tous les joueurs !",
+	has_given = "%s t'a donné %s",
+	you_gave = "Tu as donné %s %s",
+	npc_killpay = "%s pour avoir tué un NPC!",
 	profit = "profit",
-	loss = "loss",
+	loss = "perte",
 
 	-- backwards compatibility
-	deducted_x = "Deducted %s%d",
-	need_x = "Need %s%d",
+	deducted_x = "Déduit %s%d",
+	need_x = "Besoin %s%d",
 
 	deducted_money = "Deducted %s",
 	need_money = "Need %s",
 
-	payday_message = "Payday! You received %s!",
+	payday_message = "Salaire ! Vous avez reçu  %s!",
 	payday_unemployed = "You received no salary because you are unemployed!",
 	payday_missed = "Pay day missed! (You're Arrested)",
 

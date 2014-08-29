@@ -27,37 +27,37 @@ local my_language = {
 	need_admin = "You need admin privileges in order to be able to %s",
 	need_sadmin = "You need super admin privileges in order to be able to %s",
 	no_privilege = "You don't have the right privileges to perform this action",
-	no_jail_pos = "No jail position",
+	no_jail_pos = "Pas de position pour la prison",
 	invalid_x = "Invalid %s! %s",
 
 	-- F1 menu
-	f1ChatCommandTitle = "Chat commands",
-	f1Search = "Search...",
+	f1ChatCommandTitle = "Commands du chat",
+	f1Search = "Recherche...",
 
 	-- Money things:
-	price = "Price: %s%d",
-	priceTag = "Price: %s",
-	reset_money = "%s has reset all players' money!",
-	has_given = "%s has given you %s",
-	you_gave = "You gave %s %s",
-	npc_killpay = "%s for killing an NPC!",
+	price = "Prix: %s%d",
+	priceTag = "Prix: %s",
+	reset_money = "%s a reset l'argent de tout les joueurs !",
+	has_given = "%s vous a donnez %s",
+	you_gave = "Vous avez donnez %s %s",
+	npc_killpay = "%s pour avoir tués un NPC!",
 	profit = "profit",
-	loss = "loss",
+	loss = "perdu",
 
 	-- backwards compatibility
-	deducted_x = "Deducted %s%d",
-	need_x = "Need %s%d",
+	deducted_x = "Déduit %s%d",
+	need_x = "Besoin %s%d",
 
-	deducted_money = "Deducted %s",
-	need_money = "Need %s",
+	deducted_money = "Déduit %s",
+	need_money = "Besoin de %s",
 
-	payday_message = "Payday! You received %s!",
-	payday_unemployed = "You received no salary because you are unemployed!",
-	payday_missed = "Pay day missed! (You're Arrested)",
+	payday_message = "Jour de paye! Vous avez reçus %s!",
+	payday_unemployed = "Dû fait que vous n'avez pas d'emplois, vous n'aurais pas de salaire !",
+	payday_missed = "Jour de pay rater! (Vous êtes arreté)",
 
-	property_tax = "Property tax! %s",
+	property_tax = "Taxe de propriétés ! %s",
 	property_tax_cant_afford = "You couldn't pay the taxes! Your property has been taken away from you!",
-	taxday = "Tax Day! %s%% of your income was taken!",
+	taxday = "Jours de Taxe! %s%% of your income was taken!",
 
 	found_cheque = "You have found %s%s in a cheque made out to you from %s.",
 	cheque_details = "This cheque is made out to %s.",
@@ -65,17 +65,17 @@ local my_language = {
 	cheque_pay = "Pay: %s",
 	signed = "Signed: %s",
 
-	found_cash = "You have found %s%d!", -- backwards compatibility
-	found_money = "You have found %s!",
+	found_cash = "Vous avez trouvé %s%d!", -- backwards compatibility
+	found_money = "Vous avez trouvé %s!",
 
 	owner_poor = "The %s owner is too poor to subsidize this sale!",
 
 	-- Police
 	Wanted_text = "Wanted!",
-	wanted = "Wanted by Police!\nReason: %s",
-	youre_arrested = "You have been arrested for %d seconds!",
-	youre_arrested_by = "You have been arrested by %s.",
-	youre_unarrested_by = "You were unarrested by %s.",
+	wanted = "Rechercher par la police!\nRaison: %s",
+	youre_arrested = "Vous avez été arréter pour %d secondes!",
+	youre_arrested_by = "Vous avez été arréter par %s.",
+	youre_unarrested_by = "Vous avez liberer par %s.",
 	hes_arrested = "%s has been arrested for %d seconds!",
 	hes_unarrested = "%s has been released from jail!",
 	warrant_ordered = "%s ordered a search warrant for %s. Reason: %s",
@@ -111,15 +111,15 @@ local my_language = {
 	suspect_already_arrested = "The suspect is already in jail.",
 
 	-- Players
-	health = "Health: %s",
-	job = "Job: %s",
-	salary = "Salary: %s%s",
-	wallet = "Wallet: %s%s",
-	weapon = "Weapon: %s",
-	kills = "Kills: %s",
-	deaths = "Deaths: %s",
+	health = "Vie: %s",
+	job = "Travail: %s",
+	salary = "Salaire: %s%s",
+	wallet = "Porte Monnaie: %s%s",
+	weapon = "Arme: %s",
+	kills = "Tués: %s",
+	deaths = "Mort: %s",
 	rpname_changed = "%s changed their RPName to: %s",
-	disconnected_player = "Disconnected player",
+	disconnected_player = "Joueurs déconnécté",
 
 	-- Teams
 	need_to_be_before = "You need to be %s first in order to be able to become %s",
@@ -237,7 +237,7 @@ local my_language = {
 	broadcast = "[Broadcast!]",
 	radio = "radio",
 	request = "(REQUEST!)",
-	group = "(group)",
+	group = "(groupe)",
 	demote = "(DEMOTE)",
 	ooc = "OOC",
 	radio_x = "Radio %d",
@@ -245,7 +245,7 @@ local my_language = {
 	talk = "talk",
 	speak = "speak",
 
-	speak_in_ooc = "speak in OOC",
+	speak_in_ooc = "Parler dans l'OOC",
 	perform_your_action = "perform your action",
 	talk_to_your_group = "talk to your group",
 
@@ -288,11 +288,11 @@ local my_language = {
 	unknown = "Unknown",
 	arguments = "arguments",
 	no_one = "no one",
-	door = "door",
-	vehicle = "vehicle",
+	door = "Porte",
+	vehicle = "Véhicule",
 	door_or_vehicle = "door/vehicle",
 	driver = "Driver: %s",
-	name = "Name: %s",
+	name = "Nom: %s",
 	locked = "Locked.",
 	unlocked = "Unlocked.",
 	player_doesnt_exist = "Player does not exist.",
